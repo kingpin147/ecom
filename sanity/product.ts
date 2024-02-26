@@ -4,9 +4,25 @@ export const product = {
     title: 'Product',
     fields: [
         {
-            name: 'name',
+            name: 'title',
             type: 'string',
-            title: 'Name'
-        }
+            title: 'Product Title'
+        },
+        {
+            name: 'description',
+            type: 'string',
+            title: 'Product Description'
+        },
+        {name: "price",
+         title: "Product Price",
+         type: 'number'
+        },
+       
+        {
+            name: 'image',
+            type: 'image',
+            title: 'Product Image',
+           
+        },
     ]
-}
+};
